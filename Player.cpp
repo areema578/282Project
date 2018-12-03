@@ -1,26 +1,63 @@
 #include "Player.h"
 #include<iostream>
 #include <string>
+#include <cstdlib>
+#include <algorithm>
+#include <cstdlib>
+#include <ctime>
+#include <vector>
 
 Player::Player(){
 	done = false;
 	doneSplit = false;
 }
 
+
+
 void Player::hit(Card card){
-	hand.push_back(card);
+	if( card.getName() == "Ace") {
+		
+		if( this->getTotalValue() > 11 ){
+			card.setValue(1);
+			hand.push_back(card);
+		}else{
+			card.setValue(11);
+			hand.push_back(card);
+		}
+		
+	}else {
+		hand.push_back(card);
+	}
+
 	//checks whether the player have 21 or above; cant hit anymore
 	if(this->getTotalValue() >= 21){
 		done = true;
 	}
+
+
 }
 
 void Player::hitSplit(Card card){
-	splitHand.push_back(card);
+	if( card.getName() == "Ace") 
+	{	
+		if( this->getTotalValue() > 11 ){
+			card.setValue(1);
+			splitHand.push_back(card);
+			
+		}else{
+			card.setValue(11);
+			splitHand.push_back(card);
+		}
+		
+	}else {
+		splitHand.push_back(card);
+	}
+
 	//checks whether the player have 21 or above; cant hit anymore
 	if(this->getTotalValue() >= 21){
 		doneSplit = true;
 	}
+	
 }
 
 bool Player::isDone(){

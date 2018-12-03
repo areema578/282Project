@@ -16,6 +16,7 @@ using namespace std;
 // random int generator for shuffling deck
 int randomFunc (int i) { return std::rand()%i;}
 
+
 int main(int argc, char** argv) {
     int deckIdx = 0;
     string menu = "Choose number option:\n1. Hit\n2. Stand\n3. Split";
@@ -73,7 +74,8 @@ int main(int argc, char** argv) {
         Player user;
         
         //initial dealing
-        user.hit(deck[deckIdx]); //example dealing, not final
+
+        user.hit(deck[deckIdx++]); //example dealing, not final
         user.hit(deck[deckIdx++]);
         user.seeHand();
         dealer.hit(deck[deckIdx++]);
@@ -140,7 +142,7 @@ int main(int argc, char** argv) {
                     pot *= 2;
                     cout<<"The pot is now at $"<<pot<<endl;
                     user.hitSplit(deck[deckIdx++]); //example dealing
-                    user.hitSplit(deck[deckIdx++]); //according to the instructions, when you split you get two cards to that hand
+                    user.hitSplit(deck[deckIdx++]);//according to the instructions, when you split you get two cards to that hand
                     user.seeSplitHand();
                 }else{
                     cout << "You do not a have a pair" << endl;
@@ -204,7 +206,7 @@ int main(int argc, char** argv) {
                 cout<<"Total value for the dealer's hand: "<<dealer.getTotalValue()<<endl;
                 while(dealer.getTotalValue() < 17){
                     dealer.hit(deck[deckIdx++]); //continues to draw until his hand is 17 or above
-                    cout<<"Dealer hits: "<<deck[deckIdx++].getName()<<endl;
+                    cout<<"Dealer hits: "<<deck[deckIdx].getName()<<endl;
                 }
                 if(dealer.getTotalValue() > 21){
                     cout<<"Dealer has exceeded 21; you won this round"<<endl;
