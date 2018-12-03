@@ -1,6 +1,7 @@
 #include "Card.h"
 #include "Player.h"
 #include "Account.h"
+#include "Deck.h"
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -19,15 +20,8 @@ int main(int argc, char** argv) {
 	string hitChoice; //different choices on what to hit
 	
 	//create the deck of cards
-	string faces[] = {"Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"};
-	int values[] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
-	vector<Card> deck;
-	for(int i = 0; i < 13; i++){
-		for(int j = 0; j < 4; j++){
-			Card card(faces[i], values[i]);
-			deck.push_back(card);
-		}
-	}
+	Deck deckCreator;
+	vector<Card> deck = deckCreator.makeDeck();
 	
 	double pot;
 	double totalBet = 0; //overall amount bet
