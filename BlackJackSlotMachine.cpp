@@ -1,3 +1,13 @@
+/* Name: Howard Chen And Scott Arima
+ * ID: 005536087
+ * Class: CECS 282
+ * Instructor: Professor Minhthong Nguyen
+ * Date: 30 November 2018
+ * Purpose : This program is a video Black Jack Game
+ * that has built in functions for account number login
+ * betting money and Hit, Split, Stand.
+ * 
+ */
 #include "Card.h"
 #include "Player.h"
 #include "Account.h"
@@ -36,15 +46,9 @@ int main(int argc, char** argv) {
             deck.push_back(card);
         }
     }
-    
+	//shuffles deck
     srand (unsigned (time(0) ) ); // random generator based on time
-    
     random_shuffle ( deck.begin(), deck.end(), randomFunc); // random shuffle
-    
-    cout << "Shuffled deck" << endl;
-    for(int i = 0; i < 51;  i ++) {
-        cout << deck[i].getValue() << "   ";
-    }
     cout << endl;
     double pot;
     double totalBet = 0; //overall amount bet
