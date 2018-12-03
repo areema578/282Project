@@ -20,6 +20,7 @@ class Player{
 		void seeDealerHand();
 		bool isDone();
 		bool isDoneSplit();
+        bool splitAble(int idx) const;
 	private:
 		vector<Card> hand;
 		vector<Card> splitHand;

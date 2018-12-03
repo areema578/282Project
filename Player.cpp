@@ -76,3 +76,12 @@ void Player::seeSplitHand(){
 void Player::seeDealerHand(){
 	cout<<"One of the dealer's card: "<<hand[0].getName()<<endl;
 }
+
+bool Player::splitAble(int idx) const{
+    for(int i = 0; i < hand.size() - 1; i++){
+        if(hand[hand.size()-1].getName() == hand[i].getName() ){
+            return true;
+        }
+    }
+    return false;
+}
