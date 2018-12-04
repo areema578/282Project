@@ -10,6 +10,11 @@ static const int values[] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
 class Deck{
 	public:
 		Deck();
-		vector<Card> makeDeck();
+		vector<Card> getDeck();
+		int getIndex();
+		void incrementIndex();
+	private:
+		vector<Card> deck;
+		int index;
 };
 #endif
