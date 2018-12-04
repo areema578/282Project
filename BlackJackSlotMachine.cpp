@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
 	
 	//create the deck of cards
 	Deck deckCreator;
-	vector<Card> deck = deckCreator.makeDeck();
+	vector<Card> deck = deckCreator.getDeck();
 	
 	double pot;
 	double totalBet = 0; //overall amount bet
