@@ -1,73 +1,57 @@
-/* Name: Howard Chen And Scott Arima
- * ID: 005536087
- * Class: CECS 282
- * Instructor: Professor Minhthong Nguyen
- * Date: 30 November 2018
- * Purpose : This program is a video Black Jack Game
- * that has built in functions for account number login
- * betting money and Hit, Split, Stand.
- * 
- */
 #include "Player.h"
 #include<iostream>
 #include <string>
-#include <cstdlib>
-#include <algorithm>
-#include <cstdlib>
-#include <ctime>
-#include <vector>
+
 
 Player::Player(){
 	done = false;
 	doneSplit = false;
 }
 
-
-
 void Player::hit(Card card){
-	if( card.getName() == "Ace") {
-		
-		if( this->getTotalValue() > 11 ){
-			card.setValue(1);
-			hand.push_back(card);
-		}else{
-			card.setValue(11);
-			hand.push_back(card);
-		}
-		
-	}else {
-		hand.push_back(card);
-	}
-
+    
+    if( card.getName() == "Ace") {
+        
+        if( this->getTotalValue() > 11 ){
+            card.setValue(1);
+            hand.push_back(card);
+            
+        }else{
+            card.setValue(11);
+            hand.push_back(card);
+        }
+        
+    }else {
+        hand.push_back(card);
+    }
 	//checks whether the player have 21 or above; cant hit anymore
 	if(this->getTotalValue() >= 21){
 		done = true;
 	}
-
-
+    
 }
 
 void Player::hitSplit(Card card){
-	if( card.getName() == "Ace") 
-	{	
-		if( this->getTotalValue() > 11 ){
-			card.setValue(1);
-			splitHand.push_back(card);
-			
-		}else{
-			card.setValue(11);
-			splitHand.push_back(card);
-		}
-		
-	}else {
-		splitHand.push_back(card);
-	}
-
+    
+    if( card.getName() == "Ace") {
+        
+        if( this->getSplitTotalValue() > 11 ){
+            card.setValue(1);
+            splitHand.push_back(card);
+            
+        }else{
+            card.setValue(11);
+            splitHand.push_back(card);
+        }
+        
+    }else {
+        splitHand.push_back(card);
+    }
 	//checks whether the player have 21 or above; cant hit anymore
 	if(this->getTotalValue() >= 21){
 		doneSplit = true;
 	}
-	
+
 }
 
 bool Player::isDone(){
@@ -132,3 +116,4 @@ bool Player::splitAble(int idx) const{
     }
     return false;
 }
+
