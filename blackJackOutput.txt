@@ -1,0 +1,671 @@
+
+We are going to play Blackjack.
+Enter your account number: 12345
+Your current balance is $50.00
+Enter the amount of money you would like to bet: 2
+You bet $2.00
+You have $48.00 left
+Your hand:
+Six
+Ten
+Total value: 16
+One of the dealer's card: Two
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Six
+Ten
+Seven
+Total value: 23
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 23
+You have exceeded 21; you lost this round
+Would you like to play again? (Yes/No): Yes
+Your current balance is $48.00
+Enter the amount of money you would like to bet: 2
+You bet $2.00
+You have $46.00 left
+Your hand:
+Jack
+Two
+Total value: 12
+One of the dealer's card: Ten
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Jack
+Two
+Ace
+Total value: 13
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+3
+You do not a have a pair
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Jack
+Two
+Ace
+Ten
+Total value: 23
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 23
+You have exceeded 21; you lost this round
+Would you like to play again? (Yes/No): Yes
+Your current balance is $46.00
+Enter the amount of money you would like to bet: 2
+You bet $2.00
+You have $44.00 left
+Your hand:
+Seven
+Three
+Total value: 10
+One of the dealer's card: Jack
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Seven
+Three
+Ace
+Total value: 21
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 21
+Total value for the dealer's hand: 19
+You beat the dealer's hand; you won this round
+You won $4.00
+Your total balance is $48.00
+Would you like to play again? (Yes/No): Yes
+Your current balance is $48.00
+Enter the amount of money you would like to bet: 3
+You bet $3.00
+You have $45.00 left
+Your hand:
+Seven
+Five
+Total value: 12
+One of the dealer's card: Queen
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Seven
+Five
+Five
+Total value: 17
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 17
+Total value for the dealer's hand: 16
+Dealer hits: Six
+The dealer had a 20; you lost this round
+Would you like to play again? (Yes/No): Yes
+Your current balance is $45.00
+Enter the amount of money you would like to bet: 5
+You bet $5.00
+You have $40.00 left
+Your hand:
+Six
+Nine
+Total value: 15
+One of the dealer's card: Eight
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Six
+Nine
+Eight
+Total value: 23
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 23
+You have exceeded 21; you lost this round
+Would you like to play again? (Yes/No): Yes
+Your current balance is $40.00
+Enter the amount of money you would like to bet: 2
+You bet $2.00
+You have $38.00 left
+Your hand:
+King
+Jack
+Total value: 20
+One of the dealer's card: King
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+King
+Jack
+Nine
+Total value: 29
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 29
+You have exceeded 21; you lost this round
+Would you like to play again? (Yes/No): Yes
+Your current balance is $38.00
+Enter the amount of money you would like to bet: 2
+You bet $2.00
+You have $36.00 left
+Your hand:
+Ten
+Three
+Total value: 13
+One of the dealer's card: Queen
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Ten
+Three
+Queen
+Total value: 23
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 23
+You have exceeded 21; you lost this round
+Would you like to play again? (Yes/No): Yes
+Your current balance is $36.00
+Enter the amount of money you would like to bet: 2
+You bet $2.00
+You have $34.00 left
+Your hand:
+Four
+Six
+Total value: 10
+One of the dealer's card: Eight
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Four
+Six
+Jack
+Total value: 20
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 20
+Total value for the dealer's hand: 13
+Dealer hits: Four
+You beat the dealer's hand; you won this round
+You won $4.00
+Your total balance is $38.00
+Would you like to play again? (Yes/No): Yes
+Your current balance is $38.00
+Enter the amount of money you would like to bet: 2
+You bet $2.00
+You have $36.00 left
+Your hand:
+Four
+King
+Total value: 14
+One of the dealer's card: Seven
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+1
+Your hand:
+Four
+King
+Two
+Total value: 16
+Choose number option:
+1. Hit
+2. Stand
+3. Split
+2
+Total value for your hand: 16
+Total value for the dealer's hand: 15
+Dealer hits: King
+Dealer has exceeded 21; you won this round
+You won $4.00
+Your total balance is $40.00
+Would you like to play again? (Yes/No): Yes
+Your current balance is $40.00
+Enter the amount of money you would like to bet: 3
+You bet $3.00
+You have $37.00 left
+Your hand:
+King
+Two
+Total value: 12
+
+
+2nd run :
+
+We are going to play Blackjack.
+
+Enter your account number: Program ended with exit code: 01234
+
+Your current balance is $50.00
+
+Enter the amount of money you would like to bet: 2
+
+You bet $2.00
+
+You have $48.00 left
+
+Your hand:
+
+Four
+
+Two
+
+Total value: 6
+
+One of the dealer's card: Six
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+1
+
+Your hand:
+
+Four
+
+Two
+
+Seven
+
+Total value: 13
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+1
+
+Your hand:
+
+Four
+
+Two
+
+Seven
+
+Nine
+
+Total value: 22
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+2
+
+Total value for your hand: 22
+
+You have exceeded 21; you lost this round
+
+Would you like to play again? (Yes/No): Yes
+
+Your current balance is $48.00
+
+Enter the amount of money you would like to bet: 2
+
+You bet $2.00
+
+You have $46.00 left
+
+Your hand:
+
+Jack
+
+Three
+
+Total value: 13
+
+One of the dealer's card: Four
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+2
+
+Total value for your hand: 13
+
+Total value for the dealer's hand: 12
+
+Dealer hits: Jack
+
+The dealer had a 20; you lost this round
+
+Would you like to play again? (Yes/No): Yes
+
+Your current balance is $46.00
+
+Enter the amount of money you would like to bet: 1
+
+You bet $1.00
+
+You have $45.00 left
+
+Your hand:
+
+Four
+
+Four
+
+Total value: 8
+
+One of the dealer's card: King
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+3
+
+You bet $1.00
+
+You have $44.00 left
+
+The pot is now at $2.00
+
+Your hand you split:
+
+Eight
+
+Queen
+
+Total value: 18
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+1
+
+Choose number option:
+
+1. Hit first hand only
+
+2. Hit second hand only
+
+3. Hit both hands
+
+1
+
+Your hand:
+
+Four
+
+Four
+
+Five
+
+Total value: 13
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+1
+
+Choose number option:
+
+1. Hit first hand only
+
+2. Hit second hand only
+
+3. Hit both hands
+
+3
+
+Your hand:
+
+Four
+
+Four
+
+Five
+
+Nine
+
+Total value: 22
+
+Your hand you split:
+
+Eight
+
+Queen
+
+Two
+
+Total value: 20
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+2
+
+Total value for your first hand: 22
+
+Total value for your second hand: 20
+
+Total value for the dealer's hand: 17
+
+You beat the dealer's hand; you won this round
+
+You won $4.00
+
+Your total balance is $48.00
+
+Would you like to play again? (Yes/No): Yes
+
+Your current balance is $48.00
+
+Enter the amount of money you would like to bet: 2
+
+You bet $2.00
+
+You have $46.00 left
+
+Your hand:
+
+Eight
+
+Seven
+
+Total value: 15
+
+One of the dealer's card: Five
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+1
+
+Your hand:
+
+Eight
+
+Seven
+
+Three
+
+Total value: 18
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+2
+
+Total value for your hand: 18
+
+Total value for the dealer's hand: 15
+
+Dealer hits: Six
+
+Dealer has exceeded 21; you won this round
+
+You won $4.00
+
+Your total balance is $50.00
+
+Would you like to play again? (Yes/No): Yes
+
+Your current balance is $50.00
+
+Enter the amount of money you would like to bet: 50
+
+You bet $50.00
+
+You have $0.00 left
+
+Your hand:
+
+Queen
+
+Three
+
+Total value: 13
+
+One of the dealer's card: Ten
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+1
+
+Your hand:
+
+Queen
+
+Three
+
+King
+
+Total value: 23
+
+Choose number option:
+
+1. Hit
+
+2. Stand
+
+3. Split
+
+2
+
+Total value for your hand: 23
+
+You have exceeded 21; you lost this round
+
+Would you like to play again? (Yes/No): No
+
+Thanks for playing BlackJack!
+
+
